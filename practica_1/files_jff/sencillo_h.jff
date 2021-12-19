@@ -6,31 +6,27 @@
 		<right>XY</right>
 	</production>
 	<production>
-		<left>X</left>
-		<right>1X1</right>
+		<left>S</left>
+		<right>YX</right>
 	</production>
 	<production>
 		<left>X</left>
-		<right>0X0</right>
+		<right>Z00Z</right>
 	</production>
 	<production>
 		<left>Y</left>
-		<right>0Y</right>
+		<right>Z11Z</right>
 	</production>
 	<production>
-		<left>Y</left>
-		<right>1Y</right>
+		<left>Z</left>
+		<right>0Z</right>
 	</production>
 	<production>
-		<left>X</left>
-		<right>00</right>
+		<left>Z</left>
+		<right>1Z</right>
 	</production>
 	<production>
-		<left>X</left>
-		<right>11</right>
-	</production>
-	<production>
-		<left>Y</left>
+		<left>Z</left>
 		<right/>
 	</production>
 </structure>

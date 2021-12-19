@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.25)  19 DEC 2021 20:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.11.19)  19 DEC 2021 20:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/practica3.tex
-(/Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/practica3.tex
+**"/Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/practica3.tex"
+(/Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/practica3.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (./paquetes.tex (/usr/local/texlive/2021/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2021/03/17 v3.33 KOMA-Script document class (article)
@@ -646,7 +646,7 @@ Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footer
 \f@nch@O@erf=\skip76
 \f@nch@O@olf=\skip77
 \f@nch@O@orf=\skip78
-)) (/Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.aux
+)) (/Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.aux
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
 )
@@ -705,7 +705,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 24.
 LaTeX Info: Redefining \pageref on input line 24.
 LaTeX Info: Redefining \nameref on input line 24.
- (/Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.out) (/Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.out)
+ (/Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.out) (/Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.out)
 \@outlinefile=\write6
 \openout6 = `practica3.out'.
 
@@ -739,7 +739,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 
-{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.toc
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 Package tocbasic Info: Using my definition of `\numberline' on input line 2.
@@ -753,14 +753,14 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 8.
 \tf@toc=\write7
 \openout7 = `practica3.toc'.
 
- (/Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.lof
+ (/Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
 \tf@lof=\write8
 \openout8 = `practica3.lof'.
 
- [2] [3] (/Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.aux
+ [2] [3] (/Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.aux
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
 )
@@ -769,14 +769,14 @@ Package rerunfilecheck Info: File `practica3.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  23668 strings out of 478994
- 438988 string characters out of 5858183
+ 439100 string characters out of 5858183
  871786 words of memory out of 5000000
  40731 multiletter control sequences out of 15000+600000
  419341 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 116i,11n,119p,10696b,568s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 116i,11n,119p,10704b,568s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfcc1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfxc1095.pfb>
-Output written on /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.pdf (3 pages, 204714 bytes).
+Output written on "/Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.pdf" (3 pages, 204714 bytes).
 PDF statistics:
  134 PDF objects out of 1000 (max. 8388607)
  111 compressed objects within 2 object streams
