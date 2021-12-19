@@ -1,0 +1,8 @@
+#main con errores
+M{
+    a = 4
+    4 = 1;
+    R(4);
+    &
+}
+

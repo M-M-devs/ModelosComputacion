@@ -1,0 +1,8 @@
+#progama correcto
+M{
+    a = 5;
+    b = a + 2;
+    b = a + b;
+    2+2;
+    R(f);
+}
