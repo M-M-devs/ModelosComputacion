@@ -36,11 +36,51 @@
 
 \subsection{Ejercicios Sencillos}
 
-\textbf{a)}  $\{ u \in \{0,1\}^{\ast} $ tales que $\mid u \mid$ $\leqq 4 \}$
+\textbf{a)}  $\{ u \in \{0,1\}^{\ast} $ tales que $\mid u \mid$ $\leq 4 \}$
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[scale=0.35]{../practica_1/images/sencillo_a.png} 
+	\caption{Sencillo a en JFLAP} 
+    \label{fig:sencillo_a}
+\end{figure}
+
+Usamos una variable X que puede tomar valor 0, 1 o $\varepsilon$, como son palabras de 0's y 1's de longitud menor o igual que 4, 
+el simbolo de partida son cuatro X's. De esta forma se aceptan cadenas de longitud 4 o menos, ya que X puede tomar el valor $\varepsilon$. \\
 
 \textbf{b)}  Palabras con 0's y 1's que no contengan dos 1's consecutivos y que empiecen por un 1 y que terminen por dos 0's.
 
+\begin{figure}[H] 
+	\centering
+	\includegraphics[scale=0.35]{../practica_1/images/sencillo_b.png} 
+	\caption{Sencillo b en JFLAP} 
+	
+    \label{fig:sencillo_b}
+\end{figure}
+
+La variable A añade 0's tras añadir un 1, para que no contenga dos consecutivos. La variable B va generando el resto de la cadena (Añadiendo 0's o 1)
+de forma que la unica forma de acabar la cadena es cuando B vale 0, es decir, con dos 0 consecutivos. 
+\\
+
 \textbf{c)}  El conjunto vacío. 
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[scale=0.5]{../practica_1/images/sencillo_c.png} 
+	\caption{Sencillo c en JFLAP} 
+	
+    \label{fig:sencillo_c}
+\end{figure}
+
+No mostramos ejemplos, ya que JFLAP no nos lo permite, al no detectar ningun simbolo como terminal.
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[scale=0.5]{../practica_1/images/sencillo_c_err.png} 
+	\caption{Sencillo c error en JFLAP} 
+	
+    \label{fig:sencillo_c_err}
+\end{figure}
 
 \textbf{d)}  El lenguaje formado por los números naturales.
 
