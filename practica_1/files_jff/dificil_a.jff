@@ -11,6 +11,10 @@
 	</production>
 	<production>
 		<left>X</left>
+		<right>1X1</right>
+	</production>
+	<production>
+		<left>X</left>
 		<right>0</right>
 	</production>
 	<production>

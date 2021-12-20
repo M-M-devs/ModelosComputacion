@@ -13,4 +13,8 @@
 		<left>X</left>
 		<right>1</right>
 	</production>
+	<production>
+		<left>X</left>
+		<right/>
+	</production>
 </structure>
