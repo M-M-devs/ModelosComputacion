@@ -182,6 +182,14 @@ Con la variable A por cada a, generamos dos b's, tras generar las n a' y las 2n 
 
 \textbf{a)}  $\{ ww$ con $w \in \{0,1\}^{\ast}\}$
 
+Usamos tres variables:
+\begin{itemize}
+\item \textbf{M}: para ir insertando en orden la cadena w. A la izquierda de M va quedando en orden, mientras que, a su derecha va quedando invertida.
+\item \textbf{I}: para ir invirtiendo la parte la izquierda de M. Se va desplazando hacia la izquierda intercambiando dos simbolos terminales entre si.
+\item \textbf{F}: marca el final de la cadena de la izquierda para saber cuando I tiene que parar de invertir. 
+\end{itemize}
+De esta forma, cada vez que se inserta un 1 o 0 con M, la funcion de I es ir desplazándolo dejándolo al comienzo de la cadena (marcado por F).
+
 \begin{figure}[H] 
 	\centering
 	\includegraphics[scale=0.35]{../practica_1/images/extremo_a.png} 
