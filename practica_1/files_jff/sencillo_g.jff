@@ -3,11 +3,11 @@
 	<!--The list of productions.-->
 	<production>
 		<left>S</left>
-		<right>A</right>
+		<right>aAa</right>
 	</production>
 	<production>
 		<left>A</left>
-		<right>aAa</right>
+		<right>S</right>
 	</production>
 	<production>
 		<left>A</left>
@@ -19,6 +19,6 @@
 	</production>
 	<production>
 		<left>B</left>
-		<right/>
+		<right>b</right>
 	</production>
 </structure>
