@@ -81,8 +81,8 @@ No mostramos ejemplos, ya que JFLAP no nos lo permite, al no detectar ningun sim
 
 \textbf{d)}  El lenguaje formado por los números naturales.
 
-Como simbolo de partida generamos todos los dígitos y usamos una variable A para poder seguir generando digitos o 
-parar. De esta forma generamos todos los numeros naturales.
+El lenguaje genera las cifras del numero final de izquierda a derecha, no puediendo empezar por 0. De esta forma generamos un número que comprende
+entre el 1 y el 9. Tras esto se le puede agregar cualquier número entre 0 y 9.
 
 \begin{figure}[H] 
 	\centering
@@ -93,7 +93,7 @@ parar. De esta forma generamos todos los numeros naturales.
 
 \textbf{f)}  $\{ a^{n} b^{2n} c^{m} \in \{a,b,c\}^{\ast}$ con $n,m > 0\}$
 
-Con la variable A por cada a, generamos dos b's, tras generar las n a' y las 2n b's generamos m c's con la variable C.
+Con la variable A, por cada a generamos dos b's. Tras generar las n a's y las 2n b's generamos m c's con la variable C.
 
 \begin{figure}[H] 
 	\centering
@@ -104,9 +104,12 @@ Con la variable A por cada a, generamos dos b's, tras generar las n a' y las 2n 
 
 \textbf{g)} $\{ a^{n} b^{m} a^{n} \in \{a,b\}^{\ast}$ con $m,n > 0\}$
 
+Con el símbolo de partida S, generamos el número de a's mínimo que admite el lenguaje. Tras esto se puede seguir añadiendo a's a ambos lados o incluir las m b's,
+siendo obligatorio añadir como mínimo una b. 
+
 \begin{figure}[H] 
 	\centering
-	\includegraphics[scale=0.35]{../practica_1/images/sencillo_g.png} 
+	\includegraphics[scale=0.4]{../practica_1/images/sencillo_g.png} 
 	\caption{Sencillo g en JFLAP} 
     \label{fig:sencillo_g}
 \end{figure}
@@ -120,14 +123,23 @@ Con la variable A por cada a, generamos dos b's, tras generar las n a' y las 2n 
     \label{fig:sencillo_h}
 \end{figure}
 
+Con las variables S generamos las dos subcadenas necesarias, representadas por X e Y. Con las variables anteriores se añaden variables Z a ambos lados de las
+cadenas, siendo posible sustituilas por 0's, 1's o $\varepsilon$. De esta forma, se generan cadenas de 0's y 1's que contienen en cualquier orden las subcadenas 00 y 11. \\
+
 \textbf{i)}  Palíndromos formados con las letras a y b.
+
+Para formar los palíndromos con el símbolo de partida generamos dos a's o dos b's. En las cadenas generadas incluimos la variable S para que se puedan generar las cadenas de 
+a's y b's necesarias para crear el palíndromo. Además, incluimos las reglas de produccion que sustituyen S por a y b para poder generar palíndromos impares y otra regla,
+S $\rightarrow$ $\varepsilon$, para generar pares.
 
 \begin{figure}[H] 
 	\centering
-	\includegraphics[scale=0.35]{../practica_1/images/sencillo_i.png} 
+	\includegraphics[scale=0.375]{../practica_1/images/sencillo_i.png} 
 	\caption{Sencillo i en JFLAP} 
     \label{fig:sencillo_i}
 \end{figure}
+
+\newpage
 
 \subsection{Ejercicios Intermedios}
 
