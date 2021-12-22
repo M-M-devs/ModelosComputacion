@@ -1,9 +1,9 @@
-PWD /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria
+PWD /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria
 INPUT /usr/local/texlive/2021/texmf.cnf
 INPUT /usr/local/texlive/2021/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/practica3.tex
-OUTPUT /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.log
+INPUT /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/practica3.tex
+OUTPUT /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.log
 INPUT ./paquetes.tex
 INPUT paquetes.tex
 INPUT ./paquetes.tex
@@ -897,10 +897,10 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-INPUT /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.aux
-INPUT /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.aux
-INPUT /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.aux
-OUTPUT /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.aux
+INPUT /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.aux
+INPUT /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.aux
+INPUT /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.aux
+OUTPUT /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.aux
 INPUT /usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -957,18 +957,18 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestri
 INPUT /usr/local/texlive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-INPUT /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.out
-INPUT /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.out
-INPUT /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.out
-INPUT /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.out
-INPUT /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.out
-INPUT /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.out
-INPUT /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.out
-INPUT /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.out
-INPUT /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.out
-INPUT /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.out
-OUTPUT /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.out
-OUTPUT /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.pdf
+INPUT /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.out
+INPUT /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.out
+INPUT /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.out
+INPUT /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.out
+INPUT /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.out
+INPUT /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.out
+INPUT /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.out
+INPUT /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.out
+INPUT /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.out
+INPUT /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.out
+OUTPUT /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.out
+OUTPUT /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.pdf
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/bookmark/bookmark.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/bookmark/bookmark.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/bookmark/bookmark.sty
@@ -1018,9 +1018,9 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
 INPUT /usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecsx1440.tfm
-INPUT /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.toc
-INPUT /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.toc
-INPUT /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.toc
+INPUT /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.toc
+INPUT /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.toc
+INPUT /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.toc
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
@@ -1038,11 +1038,11 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-OUTPUT /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.toc
-INPUT /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.lof
-INPUT /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.lof
-INPUT /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.lof
-OUTPUT /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.lof
+OUTPUT /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.toc
+INPUT /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.lof
+INPUT /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.lof
+INPUT /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.lof
+OUTPUT /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.lof
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecsx1200.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm
 INPUT ../practica_1/images/sencillo_a.png
@@ -1120,9 +1120,9 @@ INPUT ../practica_1/images/extremo_a.png
 INPUT ../practica_1/images/extremo_a.png
 INPUT ../practica_1/images/extremo_a.png
 INPUT ../practica_1/images/extremo_a.png
-INPUT /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.aux
-INPUT /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.out
-INPUT /Users/mariolopezgonzalez/Desktop/UGR/Tercero/Primer Cuatrimestre/MC/memoria/build/practica3.out
+INPUT /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.aux
+INPUT /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.out
+INPUT /Users/marinamuca/Desktop/Marina/UGR/3º/MC/ModelosComputacion/memoria/build/practica3.out
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
