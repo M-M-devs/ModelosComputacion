@@ -145,13 +145,13 @@ S $\rightarrow$ $\varepsilon$, para generar pares.
 
 \textbf{a)}  $\{ uv \in \{0,1\}^{\ast} $ tales que $u^{-1}$ es un prefijo de $v\}$
 
-Partimos de las variables XY, con X generaremos u y $u^{-1}$, y con Y generaremos el resto de v. El palíndromo par, lo generamos de forma
+Partimos de las variables XY, con X generaremos $u$ y $u^{-1}$, y con Y generaremos el resto de v. El palíndromo par, lo generamos de forma
 similar al que generamos en el ejercicio sencillo i con la excepción de no formar palíndromos impares.
 v se genera a partir de la variable Y con 0's y con 1's sin importar el orden.
 
 \begin{figure}[H] 
 	\centering
-	\includegraphics[scale=0.35]{../practica_1/images/intermedio_a.png} 
+	\includegraphics[scale=0.325]{../practica_1/images/intermedio_a.png} 
 	\caption{Intermedio a en JFLAP} 
     \label{fig:intermedio_a}
 \end{figure}
@@ -165,7 +165,13 @@ v se genera a partir de la variable Y con 0's y con 1's sin importar el orden.
     \label{fig:intermedio_b}
 \end{figure}
 
+Con la producción S $\rightarrow$ ASA vamos generando $u$ y $v$  intercambiando A por a, b, o c y S por ASA de nuevo para incrementar la longitud de $u$ y $v$ . Por último,
+intercambiamos S por $c$ cuando $u$ y $v$  son de la longitud deseada. \\
+
 \textbf{c)}  $\{ u1^{n} \in \{0,1\}^{\ast} $ donde $\mid u \mid$ $= n \}$
+
+Con la variable S formamos las reglas de producción más basicas del lenguaje, S $\rightarrow$ 1S1 y S $\rightarrow$ 0S1, con esto conseguimos generar la cadena $u$ deseada 
+junto con la cadena de 1's del mismo tamaño que $u$. Para terminar la cadena aplicamos la regla de producción S $\rightarrow$ $\varepsilon$.
  
 \begin{figure}[H] 
 	\centering
@@ -176,14 +182,14 @@ v se genera a partir de la variable Y con 0's y con 1's sin importar el orden.
 
 \textbf{d)}  $\{ a^{n} b^{n} a^{n+1} \in \{a,b\}^{\ast}$ con $n > 0\}$
 
-La variable X se mueve hacia la derecha de la ultima b para generar una a y una b, una vez hecho esto, se intercambia por una Y, que se desplaza hasta la izquierda de la primera b para generar una a y se intercambia por una X. Esto se repite hasta que generamos la cadena al completo.
-
 \begin{figure}[H] 
 	\centering
 	\includegraphics[scale=0.35]{../practica_1/images/intermedio_d.png} 
 	\caption{Intermedio d en JFLAP} 
     \label{fig:intermedio_d}
 \end{figure}
+
+La variable X se mueve hacia la derecha de la ultima b para generar una a y una b, una vez hecho esto, se intercambia por una Y, que se desplaza hasta la izquierda de la primera b para generar una a y se intercambia por una X. Esto se repite hasta que generamos la cadena al completo.
 
 \subsection{Ejercicios Dificiles}
 
@@ -218,8 +224,10 @@ De esta forma, cada vez que se inserta un 1 o 0 con M, la funcion de I es ir des
     \label{fig:extremo_a}
 \end{figure}
 
+\newpage
 \section{Practica 2 - Analizador Léxico}
 
+\newpage
 \section{Practica 3 - Codificador-Decodificador}
 
 
