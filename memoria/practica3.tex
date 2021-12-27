@@ -232,6 +232,28 @@ De esta forma, cada vez que se inserta un 1 o 0 con M, la función de I es ir de
 
 \newpage
 \section{Practica 2 - Analizador Léxico}
+En esta práctica hemos ideado un lenguaje simple de programación. El lenguaje consta de una sintaxis sencilla que será comprobada con el analizador léxico
+que hemos programado. Las funciones de nuestro lenguaje son las siguientes:
+
+\begin{itemize}
+	\item \textbf{Función principal: } la función M englobará las instrucciones del programa.
+	\item \textbf{Función de lectura por teclado: } la función R abre un flujo de entrada para asignarle un valor a una variable.
+	\item \textbf{Función de escritura en pantalla: } la función W escribe por pantalla un valor.
+	\item \textbf{Operaciones: } las operaciones permitidas en este lenguaje son la asignación (=), suma (+), resta (-), multiplicación (*), división (/) y módulo (\%).
+	\item \textbf{Comentarios: } irán precedidos por una almohadilla (\#).
+\end{itemize}
+
+Además de las funciones anteriores, hay una serie de requisitos sintácticos que se han de cumplir:
+
+\begin{itemize}
+	\item Todo programa ha de tener una función principal y todas las funciones tienen que estar dentro de dicha función.
+	\item Todas las sentencias tienen que terminar con un punto y coma (;).
+	\item En una asignación se pueden realizar las operaciones oportunas y se pueden utilizar tanto variables como literales.
+	\item No se le puede asignar un valor a un literal.
+	\item Las funciones R y W deben tener un parámetro.
+	\item El único parámetro valido para la función R son las variables.
+	\item La función W puede tener cualquier parámetro, incluso una operación.
+\end{itemize}
 
 \newpage
 \section{Practica 3 - Codificador-Decodificador}
