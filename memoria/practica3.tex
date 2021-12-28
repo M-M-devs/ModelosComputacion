@@ -282,6 +282,38 @@ surgir y su correspondiente número de línea para buscar el error y corregir el
     \label{fig:variables}
 \end{figure}
 
+La siguiente imagen muestra las expresiones regulares que tendrá en cuenta nuestro analizador. Estas parten de unas básicas a unas más complejas formadas por expresiones anteriores. Se utilizan
+para analizar tanto instrucciones sintácticamente correctas como incorrectas. La expresión que más se utiliza es la denominada ``ignore'', cuyo único propósito es que no se tengan en cuenta
+los posibles espacios en blanco o tabulaciones entre los distintos elementos de las instrucciones, por ejemplo, los espacios en la siguiente instrucción: a = 2\ \ \ \ + 3;
+
+Las siguientes expresiones son utilizadas para tener en cuenta los posibles errores:
+\begin{itemize}
+	\item \textbf{asignacion\_err:} se intenta asignar un valor a un literal (4 = a, 3 = 1, etc).
+	\item \textbf{lectura\_err:} se intenta asignar un valor por consola a un literal (R(5)).
+	\item \textbf{sentencia\_err:} no se escribe punto y coma al final de una sentencia.
+\end{itemize}
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[scale=0.425]{../practica_2/images/expresiones_regulares.png} 
+	\caption{Expresiones regulares del analizador léxico} 
+    \label{fig:expresiones_regulares}
+\end{figure}
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[scale=0.35]{../practica_2/images/acciones.png} 
+	\caption{Flags y contadores del analizador léxico} 
+    \label{fig:acciones}
+\end{figure}
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[scale=0.39]{../practica_2/images/funciones_c.png} 
+	\caption{Flags y contadores del analizador léxico} 
+    \label{fig:funciones_c}
+\end{figure}
+
 \newpage
 \section{Practica 3 - Codificador-Decodificador}
 
