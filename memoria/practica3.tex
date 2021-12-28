@@ -195,7 +195,8 @@ junto con la cadena de 1's del mismo tamaño que $u$. Para terminar la cadena ap
     \label{fig:intermedio_d}
 \end{figure}
 
-La variable X se mueve hacia la derecha de la ultima b para generar una a y una b, una vez hecho esto, se intercambia por una Y, que se desplaza hasta la izquierda de la primera b para generar una a y se intercambia por una X. Esto se repite hasta que generamos la cadena al completo.
+La variable X se mueve hacia la derecha de la ultima b para generar una a y una b, una vez hecho esto, se intercambia por una Y, que se desplaza hasta la izquierda de la primera
+b para generar una a y se intercambia por una X. Esto se repite hasta que generamos la cadena al completo.
 
 \subsection{Ejercicios Difíciles}
 
@@ -233,7 +234,7 @@ De esta forma, cada vez que se inserta un 1 o 0 con M, la función de I es ir de
 \newpage
 \section{Practica 2 - Analizador Léxico}
 En esta práctica hemos ideado un lenguaje simple de programación. El lenguaje consta de una sintaxis sencilla que será comprobada con el analizador léxico
-que hemos programado. Las funciones de nuestro lenguaje son las siguientes:
+que hemos programado. Los elementos de nuestro lenguaje son los siguientes:
 
 \begin{itemize}
 	\item \textbf{Función principal: } la función M englobará las instrucciones del programa.
@@ -241,12 +242,16 @@ que hemos programado. Las funciones de nuestro lenguaje son las siguientes:
 	\item \textbf{Función de escritura en pantalla: } la función W escribe por pantalla un valor.
 	\item \textbf{Operaciones: } las operaciones permitidas en este lenguaje son la asignación (=), suma (+), resta (-), multiplicación (*), división (/) y módulo (\%).
 	\item \textbf{Comentarios: } irán precedidos por una almohadilla (\#).
+	\item \textbf{Sentencias: } operaciones, funciones de lectura o escritura terminadas con punto y coma (;).
 \end{itemize}
 
-Además de las funciones anteriores, hay una serie de requisitos sintácticos que se han de cumplir:
+\textcolor{white}{.}
+
+Además, hay una serie de requisitos sintácticos que se han de cumplir:
 
 \begin{itemize}
-	\item Todo programa ha de tener una función principal y todas las funciones tienen que estar dentro de dicha función.
+	\item Todo programa ha de tener una función principal.
+	\item No puede haber instrucciones fuera de la función principal.
 	\item Todas las sentencias tienen que terminar con un punto y coma (;).
 	\item En una asignación se pueden realizar las operaciones oportunas y se pueden utilizar tanto variables como literales.
 	\item No se le puede asignar un valor a un literal.
@@ -254,6 +259,28 @@ Además de las funciones anteriores, hay una serie de requisitos sintácticos qu
 	\item El único parámetro valido para la función R son las variables.
 	\item La función W puede tener cualquier parámetro, incluso una operación.
 \end{itemize}
+
+\textcolor{white}{.}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{lllll}
+		\multicolumn{1}{c}{\underline{\textbf{Programa correcto}}} & \multicolumn{1}{c}{\underline{\textbf{Programa incorrecto}}} \\
+		\multicolumn{1}{c}{\includegraphics[scale=0.5]{../practica_2/images/programa_correcto.png}} & \multicolumn{1}{c}{\includegraphics[scale=0.5]{../practica_2/images/programa_err.png}}
+	\end{tabular}
+\end{table}
+
+En las fotos anteriores mostramos dos ejemplos que ilustran como sería un programa correcto y otro con errores sintácticos.
+
+A continuación, adjuntamos unas capturas del fichero analizador.lex. La primera imagen corresponde con los flags y contadores que van a ser usados por el analizador para determinar los errores que puedan 
+surgir y su correspondiente número de línea para buscar el error y corregir el mismo de una forma más cómoda. 
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[scale=0.5]{../practica_2/images/variables.png} 
+	\caption{Flags y contadores del analizador léxico} 
+    \label{fig:variables}
+\end{figure}
 
 \newpage
 \section{Practica 3 - Codificador-Decodificador}
