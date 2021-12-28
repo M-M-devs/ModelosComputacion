@@ -300,6 +300,9 @@ Las siguientes expresiones son utilizadas para tener en cuenta los posibles erro
     \label{fig:expresiones_regulares}
 \end{figure}
 
+Declaramos las acciones a realizar cuando se encuentran estos elementos que hemos definido anteriormente, es decir, actualizamos el valor de los flags e incrementamos el valor de los contadores para que
+quede registrado la línea que se está procesando. Además, mostramos por pantalla el elemento que se ha reconocido en cada momento.
+
 \begin{figure}[H] 
 	\centering
 	\includegraphics[scale=0.35]{../practica_2/images/acciones.png} 
@@ -307,12 +310,36 @@ Las siguientes expresiones son utilizadas para tener en cuenta los posibles erro
     \label{fig:acciones}
 \end{figure}
 
+Por último, escribimos las sentencias en C para mostrar la salida del analizador léxico en función de los flags. Si hay algún error sintáctico mostramos el error junto con la línea donde ocurre el mismo.
+
 \begin{figure}[H] 
 	\centering
 	\includegraphics[scale=0.39]{../practica_2/images/funciones_c.png} 
 	\caption{Flags y contadores del analizador léxico} 
     \label{fig:funciones_c}
 \end{figure}
+
+A continuación, mostramos las capturas de la salida de nuestro analizador con los ejemplos de programa correcto y programa con errores anteriores.
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{lllll}
+		\multicolumn{1}{c}{\includegraphics[scale=0.38]{../practica_2/images/main_correcto_ejec.png}} & \multicolumn{1}{c}{\includegraphics[scale=0.38]{../practica_2/images/main_err_ejec.png}}
+	\end{tabular}
+\end{table}
+
+\newpage
+
+Además, adjuntamos una ejecución para un programa con errores diferentes.
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{lllll}
+		\multicolumn{1}{c}{\includegraphics[scale=0.5]{../practica_2/images/programa_err_2.png}} & \multicolumn{1}{c}{\includegraphics[scale=0.45]{../practica_2/images/main_err_ejec_2.png}}
+	\end{tabular}
+\end{table}
+
+
 
 \newpage
 \section{Practica 3 - Codificador-Decodificador}
