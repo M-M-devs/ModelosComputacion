@@ -339,10 +339,107 @@ Además, adjuntamos una ejecución para un programa con errores diferentes.
 	\end{tabular}
 \end{table}
 
-
-
 \newpage
 \section{Practica 3 - Codificador-Decodificador}
+\subsection{Codificador}
 
+Para esta práctica hemos pensado en un codificador para cadenas de 0's y 1's que invierta el valor de los elementos situados en las posiciones impares, es decir, si hay un 0 se intercambia por un 1 y viceversa. Los elementos
+de las posiciones pares cambiarán su valor según el valor original de la posición anterior, si era un 1 invertirá su valor y si era un 0 este mantendrá su valor.
+
+Este es un ejemplo de como se codificarían las parejas de ceros y unos:
+\begin{itemize}
+	\item 00 $\rightarrow$ 10
+	\item 01 $\rightarrow$ 11
+	\item 10 $\rightarrow$ 01
+	\item 11 $\rightarrow$ 00
+\end{itemize}
+
+La programación de la máquina de estados para el algoritmo de codificación descrito anteriormente seria la mostrada en la siguiente figura:
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[scale=0.6]{../practica_3/images/codificador.png} 
+	\caption{Máquina de estados para la codificación} 
+    \label{fig:codificador}
+\end{figure}
+
+\subsubsection{Ejecución codificador}
+Para comprobar que el codificador funciona correctamente, hemos introducido una cadena que contiene las cuatro parejas (00011011) descritas anteriormente para comprobar todas las parejas en una misma ejecución.
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[scale=0.55]{../practica_3/images/ejecucion_codificador.png} 
+	\caption{Ejecución del codificador} 
+    \label{fig:ejecucion_codificador}
+\end{figure}
+
+Se puede observar que la cadena codificada obtenida es la formada por las parejas codificadas de manera individual.
+\begin{itemize}
+	\item 00011011 $\rightarrow$ 10110100
+\end{itemize}
+
+\subsubsection{Ejemplos adicionales}
+
+Como ejemplos adicionales, introducimos distintas cadenas de longitud par e impar:
+\begin{itemize}
+	\item 1100101
+	\item 01101011101
+	\item 001
+	\item 111111111
+	\item 000000000
+\end{itemize}
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[scale=0.4]{../practica_3/images/adicionales_codificador.png} 
+	\caption{Ejecuciones adicionales del codificador} 
+    \label{fig:adicionales_codificador}
+\end{figure}
+
+\subsection{Decodificador}
+
+Para decodificar las cadenas, realizamos el proceso inverso. Si el elemento está en una posición impar, invertimos su valor. En caso contrario, si al decodificar, el anterior dígito era un cero, no modificamos su valor,
+en cambio, si el anterior dígito era un uno, lo invertimos. 
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[scale=0.45]{../practica_3/images/decodificador.png} 
+	\caption{Máquina de estados para la decodificación} 
+    \label{fig:decodificador}
+\end{figure}
+
+\subsubsection{Ejecución decodificador}
+
+Para comprobar que el decodificador funciona correctamente, introducimos cadena inicial codificada, de forma que podamos comprobar que la cadena resultante sea la original.
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[scale=0.55]{../practica_3/images/ejecucion_decodificador.png} 
+	\caption{Ejecución del decodificador} 
+    \label{fig:ejecucion_decodificador}
+\end{figure}
+
+Se puede observar que la cadena decodificada obtenida es la cadena original formada por las cuatro parejas descritas al inicio de la práctica.
+
+\begin{itemize}
+	\item 10110100 $\rightarrow$ 00011011
+\end{itemize}
+
+\subsubsection{Ejemplos adicionales}
+
+\begin{itemize}
+	\item 0010010
+	\item 1101100010
+	\item 100
+	\item 000000000
+	\item 101010101
+\end{itemize}
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[scale=0.55]{../practica_3/images/adicionales_decodificador.png} 
+	\caption{Ejecuciones adicionales del decodificador} 
+    \label{fig:adicionales_decodificador}
+\end{figure}
 
 \end{document}
