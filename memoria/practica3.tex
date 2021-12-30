@@ -99,7 +99,7 @@ entre el 1 y el 9. Tras esto se le puede agregar cualquier número entre 0 y 9.
 
 \textbf{f)}  $\{ a^{n} b^{2n} c^{m} \in \{a,b,c\}^{\ast}$ con $n,m > 0\}$
 
-Con la variable A, por cada a generamos dos b's. Tras generar las n a's y las 2n b's generamos m c's con la variable C.
+Usamos la variable A para generar por cada a, dos b's. Tras generar las n a's y las 2n b's generamos m c's con la variable C.
 
 \begin{figure}[H] 
 	\centering
@@ -272,6 +272,8 @@ Además, hay una serie de requisitos sintácticos que se han de cumplir:
 
 En las fotos anteriores mostramos dos ejemplos que ilustran como sería un programa correcto y otro con errores sintácticos.
 
+\subsection{Variables globales}
+
 A continuación, adjuntamos unas capturas del fichero analizador.lex. La primera imagen corresponde con los flags y contadores que van a ser usados por el analizador para determinar los errores que puedan 
 surgir y su correspondiente número de línea para buscar el error y corregir el mismo de una forma más cómoda. 
 
@@ -281,6 +283,8 @@ surgir y su correspondiente número de línea para buscar el error y corregir el
 	\caption{Flags y contadores del analizador léxico} 
     \label{fig:variables}
 \end{figure}
+
+\subsection{Expresiones regulares}
 
 La siguiente imagen muestra las expresiones regulares que tendrá en cuenta nuestro analizador. Estas parten de unas básicas a unas más complejas formadas por expresiones anteriores. Se utilizan
 para analizar tanto instrucciones sintácticamente correctas como incorrectas. La expresión que más se utiliza es la denominada ``ignore'', cuyo único propósito es que no se tengan en cuenta
@@ -300,6 +304,8 @@ Las siguientes expresiones son utilizadas para tener en cuenta los posibles erro
     \label{fig:expresiones_regulares}
 \end{figure}
 
+\subsection{Acciones según las expresiones regulares}
+
 Declaramos las acciones a realizar cuando se encuentran estos elementos que hemos definido anteriormente, es decir, actualizamos el valor de los flags e incrementamos el valor de los contadores para que
 quede registrado la línea que se está procesando. Además, mostramos por pantalla el elemento que se ha reconocido en cada momento.
 
@@ -310,14 +316,18 @@ quede registrado la línea que se está procesando. Además, mostramos por panta
     \label{fig:acciones}
 \end{figure}
 
+\subsection{Código C de salida}
+
 Por último, escribimos las sentencias en C para mostrar la salida del analizador léxico en función de los flags. Si hay algún error sintáctico mostramos el error junto con la línea donde ocurre el mismo.
 
 \begin{figure}[H] 
 	\centering
-	\includegraphics[scale=0.39]{../practica_2/images/funciones_c.png} 
+	\includegraphics[scale=0.38]{../practica_2/images/funciones_c.png} 
 	\caption{Flags y contadores del analizador léxico} 
     \label{fig:funciones_c}
 \end{figure}
+
+\subsection{Ejemplos}
 
 A continuación, mostramos las capturas de la salida de nuestro analizador con los ejemplos de programa correcto y programa con errores anteriores.
 
@@ -427,6 +437,7 @@ Se puede observar que la cadena decodificada obtenida es la cadena original form
 
 \subsubsection{Ejemplos adicionales}
 
+Como anteriormente, tomamos las cadenas resultantes de codificar los ejemplos adicionales propuestos en el apartado anterior para comprobar que todo funciona correctamente. 
 \begin{itemize}
 	\item 0010010
 	\item 1101100010
@@ -441,5 +452,7 @@ Se puede observar que la cadena decodificada obtenida es la cadena original form
 	\caption{Ejecuciones adicionales del decodificador} 
     \label{fig:adicionales_decodificador}
 \end{figure}
+
+Como podemos observar, da como resultado las cadenas originales de los ejemplos adicionales del codificador.
 
 \end{document}
